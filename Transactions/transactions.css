@@ -1,0 +1,39 @@
+.type{
+    
+        height: 60px;
+        margin: 20px;
+        
+        background-color: #9782a302;
+        width: 35%;
+        border-radius: 65px;
+        padding: 12px;
+        padding-left: 15px;
+        font-size: x-large;
+        color: rgb(219, 196, 196);
+        
+}
+
+.amount{
+    height: 1em;
+    width: 3%;
+  
+    color: rgb(83, 81, 90);
+    
+    font-size: medium;
+   
+    align-items: center;
+   
+}
+
+.add{
+    height: 60px;
+        margin: 20px;
+        
+        background-color: #9782a302;
+        width: 20%;
+        border-radius: 65px;
+        padding: 12px;
+        padding-left: 15px;
+        font-size: x-large;
+        color: rgb(219, 196, 196);
+}

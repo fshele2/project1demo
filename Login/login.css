@@ -1,0 +1,151 @@
+
+
+.login {
+    width: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    border: 2px;
+    padding: 20px;
+}
+
+.welcome-container{
+    border: 15px double #030303;
+    border-radius: 5px;
+    box-shadow: 10px #dfd7df;
+    box-sizing: 13px;
+    animation: glow 1s ease-in-out infinite;
+    padding: 55px;
+    
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+font-size: 50px;
+padding: 40px 50px;
+text-align: center;
+text-transform: uppercase;
+text-rendering: optimizeLegibility;
+color: #131313;
+background-color:linear-gradient(-45deg, #e6d8d4, #7952af, #518bb3, #61c7c7);
+letter-spacing: .20em;
+text-shadow:
+0 -1px 0 #fff,
+0 1px 0 #ebe5e5,
+0 2px 0 #2c2c2c,
+
+0 7px 0 #222,
+0 8px 0 #202020,
+0 9px 0 #1e1e1e,
+0 10px 0 #1c1c1c,
+0 11px 0 #1a1a1a,
+0 12px 0 #181818,
+0 13px 0 #161616,
+0 14px 0 #000000,
+0 15px 0 #f3f1f1,
+0 22px 30px rgba(0, 0, 0, 0.9);
+
+
+}
+
+@keyframes glow {
+    from {
+      box-shadow: 0 0 5px #ff00ff;
+    }
+    to {
+      box-shadow: 0 0 15px #ff00ff;
+    }
+  }
+
+.textlogin {
+    text-align: center;
+    margin-bottom: 60px;
+    
+    border: 2px;
+    padding: 2px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-size: medium;
+    word-spacing: .2em;
+}
+
+.user {
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e9e6eb91;
+    border-color: #000000;
+    width: 25%;
+    border-radius: 65px;
+    padding: 12px;
+    padding-left: 15px;
+    
+}
+
+.login-button {
+    background: #8c72af;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #02040F;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dashboard-button {
+    background: #9c7fa3;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #02040F;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login-button:hover {
+    cursor: pointer;
+}
+
+.disclaimer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+    margin-bottom: 5px;
+    font-size: x-small;
+    padding: 0px;
+}
+
+.register-button {
+    background: #a27dbb;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-color: #02040F;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.dice{
+    border: 5px double rgba(206, 206, 212, 0.589);
+    height: 20px;
+    width: 20px;
+    border-radius: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.register-button:hover {
+    cursor: pointer;
+}

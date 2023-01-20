@@ -1,0 +1,67 @@
+.dashCont {
+    background-color: -webkit-linear-gradient(to right, #f5af19, #f12711);
+
+}
+
+
+.labelcont {
+    width: 2px;
+
+}
+
+.depo {
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9782a3dc;
+    border-color: #000000;
+    width: 65%;
+    border-radius: 65px;
+    padding: 12px;
+    padding-left: 15px;
+
+}
+
+.welcome {
+
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: large;
+    text-decoration:double;
+    font-stretch:ultra-expanded;
+    
+}
+
+.userpro {
+    text-align: center;
+}
+.button-container{
+    height: 60px;
+    margin: 20px;
+    
+    background-color: #9782a302;
+    width: 65%;
+    border-radius: 65px;
+    padding: 12px;
+    padding-left: 15px;
+    font-size: x-large;
+    color: rgb(219, 196, 196);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+}
+
+.button-container{
+    cursor: pointer;
+}
+.dashboard-menu{
+
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: xx-large;
+    text-decoration:underline;
+ 
+     
+
+}
